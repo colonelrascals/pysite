@@ -4,36 +4,81 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../blog/migrations/0001_initial.py	1;"	kind:file	line:1
 ALLOWED_HOSTS	../pysite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	../pysite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AUTH_PASSWORD_VALIDATORS	../pysite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:89
+AppConfig	../blog/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 BASE_DIR	../pysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-DATABASES	../pysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+BlogConfig	../blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../pysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
 DEBUG	../pysite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HttpResponse	../blog/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:2
 INSTALLED_APPS	../pysite/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	../pysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
-MIDDLEWARE	../pysite/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
-ROOT_URLCONF	../pysite/settings.py	/^ROOT_URLCONF = 'pysite.urls'$/;"	kind:variable	line:52
+LANGUAGE_CODE	../pysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:108
+MIDDLEWARE	../pysite/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:44
+Meta	../blog/models.py	/^    class Meta:$/;"	kind:class	line:14
+Migration	../blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Post	../blog/admin.py	/^from .models import Post$/;"	kind:namespace	line:2
+Post	../blog/models.py	/^class Post(models.Model):$/;"	kind:class	line:6
+Post	../blog/views.py	/^from .models import Post$/;"	kind:namespace	line:3
+ROOT_URLCONF	../pysite/settings.py	/^ROOT_URLCONF = 'pysite.urls'$/;"	kind:variable	line:54
 SECRET_KEY	../pysite/settings.py	/^SECRET_KEY = 'w3&9*l7fq-nh(7g%x^4!(jr@3i^(kqbi20t8dbe^133ox*degb'$/;"	kind:variable	line:23
-STATIC_URL	../pysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
-TEMPLATES	../pysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
-TIME_ZONE	../pysite/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
-USE_I18N	../pysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
-USE_L10N	../pysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
-USE_TZ	../pysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
-WSGI_APPLICATION	../pysite/settings.py	/^WSGI_APPLICATION = 'pysite.wsgi.application'$/;"	kind:variable	line:70
+STATIC_URL	../pysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:122
+TEMPLATES	../pysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../pysite/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:110
+TestCase	../blog/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../pysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:112
+USE_L10N	../pysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:114
+USE_TZ	../pysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:116
+WSGI_APPLICATION	../pysite/settings.py	/^WSGI_APPLICATION = 'pysite.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../pysite/__init__.py	1;"	kind:file	line:1
+__unicode__	../blog/models.py	/^        def __unicode__(self):$/;"	kind:member	line:17
+admin	../blog/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
 admin	../pysite/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../blog/admin.py	1;"	kind:file	line:1
 application	../pysite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../blog/apps.py	1;"	kind:file	line:1
+blog_views	../pysite/urls.py	/^from blog import views as blog_views$/;"	kind:namespace	line:18
+content	../blog/models.py	/^    content = models.TextField()$/;"	kind:variable	line:10
+created	../blog/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:12
+dependencies	../blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
 django	../manage.py	/^            import django$/;"	kind:namespace	line:14
 execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fields	../blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+get_absolute_url	../blog/models.py	/^    def get_absolute_url(self):$/;"	kind:member	line:20
+get_object_or_404	../blog/views.py	/^from django.shortcuts import render, render_to_response, get_object_or_404$/;"	kind:namespace	line:1
 get_wsgi_application	../pysite/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+index	../blog/views.py	/^def index(req):$/;"	kind:function	line:7
+initial	../blog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
 manage.py	../manage.py	1;"	kind:file	line:1
+migrations	../blog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../blog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../blog/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../blog/models.py	1;"	kind:file	line:1
+name	../blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
+name	../blog/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:17
+operations	../blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+options	../blog/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:27
+ordering	../blog/models.py	/^        ordering = ['-created']$/;"	kind:variable	line:15
 os	../manage.py	/^import os$/;"	kind:namespace	line:2
 os	../pysite/settings.py	/^import os$/;"	kind:namespace	line:13
 os	../pysite/wsgi.py	/^import os$/;"	kind:namespace	line:10
+post	../blog/views.py	/^def post(req, slug):$/;"	kind:function	line:12
+published	../blog/models.py	/^    published = models.BooleanField(default=True)$/;"	kind:variable	line:11
+render	../blog/views.py	/^from django.shortcuts import render, render_to_response, get_object_or_404$/;"	kind:namespace	line:1
+render_to_response	../blog/views.py	/^from django.shortcuts import render, render_to_response, get_object_or_404$/;"	kind:namespace	line:1
+reverse	../blog/models.py	/^from django.core.urlresolvers import reverse$/;"	kind:namespace	line:2
 settings.py	../pysite/settings.py	1;"	kind:file	line:1
+slug	../blog/models.py	/^    slug = models.SlugField(max_length=255, unique=True)$/;"	kind:variable	line:8
+summery	../blog/models.py	/^    summery = models.CharField(max_length=300)$/;"	kind:variable	line:9
 sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../blog/tests.py	1;"	kind:file	line:1
+title	../blog/models.py	/^    title = models.CharField(max_length=255)$/;"	kind:variable	line:7
+unicode_literals	../blog/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
 url	../pysite/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
-urlpatterns	../pysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../pysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
 urls.py	../pysite/urls.py	1;"	kind:file	line:1
+views.py	../blog/views.py	1;"	kind:file	line:1
 wsgi.py	../pysite/wsgi.py	1;"	kind:file	line:1
